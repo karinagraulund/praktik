@@ -9,17 +9,69 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="index.html">FORSIDE</a></li>
-        <li><a class="active" href="ommig.html">OM MIG</a></li>
-      </ul>
-    </nav>
+    <section id="section2">
+      <nav>
+        <ul>
+          <li><a href="index.html">FORSIDE</a></li>
+          <li><a class="active" href="ommig.html">OM MIG</a></li>
+        </ul>
+      </nav>
+    </section>
     <section id="section3">
       <div class="citat">
-        <h2>About & Contact</h2>
-        <p>citat her</p>
+        <div class="citat2">
+          <h2>About & Contact</h2>
+          <p>citat her</p>
+        </div>
+      <div class="contact">
+        <img id="profilbillede" src="assets/images/karina.png" alt="">
+        <div class="info">
+          <ul>
+            <li><a onclick="ommig()">Om mig</a></li>
+            <li><a onclick="erfaringer()">Erfaringer</a></li>
+            <li><a onclick="uddannelse()">Uddannelse</a></li>
+          </ul>
+          <hr>
+          <p id="myAnchor">Jeg er en 23 årig pige ved navn Karina, som er vild med den
+verden vi lever i. Der er så mange muligheder der kan publiceres
+i den digitale verden. Jeg er vild med mulighederne via de sociale
+medier gennem Facebook og Instagram, hvor der i sammenhænge
+kan markdesfører og kommunikere tværs pltforme.<br><br>
+
+Til dagligt studere jeg til multimediedesigner på mit 3. semester
+i Odense, hvor jeg senere vil have en BA i Communication Desig.
+Jeg er særlig grebet af  mulighederne der kan fremmes ved
+det skriftlige, visuelle og digitale der kan udvikles. Derudover l
+ægges der også vægt i farverne. sort, hvid og grå - simpel og
+elegant farve - også farver der er stor tilhænger indenfor mode
+og boliginteriør på grund af evnen til at skabe kontester.</p>
+        </div>
+      </div>
       </div>
     </section>
+    <footer>
+      <p>
+        Karina Graulund <br />
+        Mail: karinagraulund@hotmail.<br />
+        Mobil: (+45) 22 38 67 28 <br /> <br />
+        &copy; Copyright 2018
+      </p>
+      <div class="socialmedia">
+        <i onclick="window.location.href='https://www.facebook.com/karina.graulund'" class="fab fa-facebook-f"></i>
+        <i onclick="window.location.href='https://www.instagram.com/karinagraulund/'" class="fab fa-instagram"></i>
+        <i onclick="window.location.href='https://www.linkedin.com/in/karina-graulund-24a786172/'" class="fab fa-linkedin-in"></i>
+      </div>
+    </footer>
+    <script>
+    function ommig() {
+      document.getElementById("myAnchor").innerHTML = "Jeg er en 23 årig pige ved navn Karina, som er vild med den verden vi lever i. Der er så mange muligheder der kan publiceres i den digitale verden. Jeg er vild med mulighederne via de sociale medier gennem Facebook og Instagram, hvor der i sammenhænge kan markdesfører og kommunikere tværs pltforme.<br><br> Til dagligt studere jeg til multimediedesigner på mit 3. semester i Odense, hvor jeg senere vil have en BA i Communication Desig. Jeg er særlig grebet af  mulighederne der kan fremmes ved det skriftlige, visuelle og digitale der kan udvikles. Derudover lægges der også vægt i farverne. sort, hvid og grå - simpel og elegant farve - også farver der er stor tilhænger indenfor mode og boliginteriør på grund af evnen til at skabe kontester.";
+    }
+    function erfaringer() {
+      document.getElementById("myAnchor").innerHTML = "<pppp>Café Bella</pppp><br />Tjener<br />2007 - nuværende<br /><br /><pppp>Sygehusets Børneinstitution</pppp><br />Tilkaldevikar<br />2015 - 2016<br /><br /><pppp>Nattoget</pppp><br />Garderobepige<br />2015 - 2016<br /><br /><pppp>Øvrigt</pppp><br />Frivilligt arbejde<br />Dansk Flytningehjælp<br />2015";
+    }
+    function uddannelse() {
+      document.getElementById("myAnchor").innerHTML = "<pppp>Multimediedesigner</pppp><br />UCL Erhvervsakademi og Porfessionshøjskole<br />2017 - 2019<br /><br /><pppp>Slagelse Gymnasium</pppp><br />STX<br />2012 - 2015<br /><br /><pppp>X-class</pppp><br />10.klasse<br />2011 - 2012";
+    }
+</script>
   </body>
 </html>

@@ -12,11 +12,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
 
 
-ul {
+#section1 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,15 +27,57 @@ ul {
   margin-right: 100px;
 }
 
-li {
+#section1 li {
   display: inline;
   margin-right: 40px;
 }
 
-li a {
+#section1 li a {
   text-decoration: none;
   font-size: 20px;
   color: grey;
+}
+#section2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 90px;
+  margin-right: 100px;
+}
+
+#section2 li {
+  display: inline;
+  margin-right: 40px;
+}
+
+#section2 li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+}
+
+#section3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 100px;
+}
+
+#section3 li {
+  display: inline;
+  margin-right: 40px;
+}
+
+#section3 li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+  cursor: pointer;
+}
+pppp {
+ font-weight: 700;
 }
 
 .active {
@@ -94,7 +137,67 @@ hr {
 
 .citat {
   position: relative;
-  top: 30%;
+  top: 50%;
   transform: translate(0%, -50%);
   margin-left: 25%;
+}
+.citat2 {
+  margin-bottom: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  margin-right: 25%;
+}
+.contact h2 {
+  margin: 0;
+  font-weight: 400;
+}
+.contact img {
+  flex: 1;
+}
+.contact .info {
+  flex: 2;
+}
+.info hr {
+  width: 100%;
+}
+.info{
+    margin-left: 5%;
+}
+
+
+#profilbillede {
+  width: 30%;
+  height: 30%;
+}
+
+footer {
+  height: 25vh;
+  color: white;
+  background: #bca2a6;
+  margin:0;
+  text-align: center;
+  opacity: .8;
+}
+
+footer p {
+  padding: 0;
+  padding-top: 40px;
+  margin: 0;
+}
+
+footer i {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 20px;
+  padding-bottom: 0;
+  color: black;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+footer i:last-child {
+  margin-right: 0;
 }
