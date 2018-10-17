@@ -22,7 +22,7 @@
         <h2>Multimediedesigner studerende</h2>
       </div>
       <div class="bla">  </div>
-      <i class="fas fa-chevron-circle-down"></i>
+      <i style="cursor: pointer;" onclick="scrolldown()" class="fas fa-chevron-circle-down"></i>
     </section>
     <section id="section4">
       <div class="flexx">
@@ -45,7 +45,7 @@
 
         </div>
         <div class="box2">
-          <img src="assets/images/visitkorta.png" alt="visit kort">
+          <img src="assets/images/Ikke-navngivet-1.png" alt="visit kort">
           <div class="overlays">
             <div class="text3">Hej Karina! :D</div>
           </div>
@@ -62,7 +62,7 @@
 
         </div>
         <div class="box3">
-          <img src="assets/images/visitkorta.png" alt="visit kort">
+          <img src="assets/images/Ikke-angivet-2.png" alt="visit kort">
           <div class="overlays">
             <div class="text3">Hej Karina! :D</div>
           </div>
@@ -79,7 +79,7 @@
 
         </div>
         <div class="box4">
-          <img src="assets/images/visitkorta.png" alt="visit kort">
+          <img src="assets/images/elle.png" alt="visit kort">
           <div class="overlays">
             <div class="text3">Hej Karina! :D</div>
           </div>
@@ -184,6 +184,12 @@ window.onclick = function(event) {
     if (event.target == modal4) {
         modal4.style.display = "none";
     }
+}
+</script>
+<script>
+function scrolldown() {
+  var scroll = document.querySelector("#section4");
+  scroll.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
 }
 </script>
   </body>
