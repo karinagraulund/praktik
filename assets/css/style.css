@@ -13,7 +13,8 @@ body {
 
 
 
-#section1 ul {
+
+.section1 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,17 +24,23 @@ body {
   margin-right: 100px;
 }
 
-#section1 li {
+.section1 li {
   display: inline;
   margin-right: 40px;
 }
 
-#section1 li a {
+.section1 li a {
   text-decoration: none;
   font-size: 17px;
   color: black;
 }
-#section2 ul {
+.section1 li a:hover {
+  text-decoration: line-through;
+}
+.section2 li a:hover {
+  text-decoration: line-through;
+}
+.section2 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -43,12 +50,12 @@ body {
   margin-right: 100px;
 }
 
-#section2 li {
+.section2 li {
   display: inline;
   margin-right: 40px;
 }
 
-#section2 li a {
+.section2 li a {
   text-decoration: none;
   font-size: 17px;
   color: black;
@@ -76,16 +83,16 @@ pppp {
  font-weight: 700;
 }
 
-.active {
+#active {
   text-decoration: line-through;
 }
 
-#section1 {
+.section1 {
   height: 100vh;
   overflow: hidden;
 }
 
-#section1 i {
+.section1 i {
   position: absolute;
   bottom: 100px;
   left: 50%;
@@ -118,6 +125,8 @@ pppp {
   font-family: 'Merriweather', serif;
   color: #bca2a6;
 }
+
+
 
 hr {
   width: 300px;
