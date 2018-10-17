@@ -357,6 +357,12 @@ footer i:last-child {
 .box4:hover {
   transform: scale(0.95);
 }
+.box5:hover {
+  transform: scale(0.95);
+}
+.box6:hover {
+  transform: scale(0.95);
+}
 
 .description {
   background: white;

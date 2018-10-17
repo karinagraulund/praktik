@@ -25,48 +25,35 @@
       <i style="cursor: pointer;" onclick="scrolldown()" class="fas fa-chevron-circle-down"></i>
     </section>
     <section id="projects">
-      <div class="headbox">
       <div class="flex boxes">
-        <div class="box">
+        <div onclick="window.location.href='visitkort.html'" class="box">
           <div class="description">
             <h3>Visitkort</h3>
-
-            <button onclick="window.location.href='ommig.html'" type="button" name="button">VIEW</button>
           </div>
         </div>
-        <div class="box2">
+        <div onclick="window.location.href='oneinone.html'" class="box2">
           <div class="description">
             <h3>ONE IN ONE</h3>
-
-            <button onclick="window.location.href='ommig.html'" type="button" name="button">VIEW</button>
           </div>
         </div>
-        <div class="box3">
+        <div onclick="window.location.href='vrogum.html'" class="box3">
           <div class="description">
             <h3>Den lille by, Vrøgum</h3>
-
-            <button onclick="window.location.href='ommig.html'" type="button" name="button">VIEW</button>
           </div>
         </div>
-        <div class="box4">
+        <div onclick="window.location.href='logo.html'" class="box4">
           <div class="description">
             <h3>Logo til hjemmeside</h3>
-
-            <button onclick="window.location.href='ommig.html'" type="button" name="button">VIEW</button>
           </div>
         </div>
-        <div class="box5">
+        <div onclick="window.location.href='anker.html'" class="box5">
           <div class="description">
             <h3>Illustreret anker</h3>
-
-            <button onclick="window.location.href='ommig.html'" type="button" name="button">VIEW</button>
           </div>
         </div>
-        <div class="box6">
+        <div onclick="window.location.href='magasin.html'" class="box6">
           <div class="description">
             <h3>Magasin</h3>
-          
-            <button onclick="window.location.href='ommig.html'" type="button" name="button">VIEW</button>
           </div>
         </div>
 
@@ -91,7 +78,7 @@
 
 <script>
 function scrolldown() {
-  var scroll = document.querySelector("#section4");
+  var scroll = document.querySelector("#projects");
   scroll.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
 }
 </script>
